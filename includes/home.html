@@ -1,0 +1,539 @@
+																																					
+
+<!-- <div id="boxed-slider"> -->
+
+	<div class="slider ">
+		<div class="fullwidthbanner-container">
+			<div class="fullwidthbanner">
+
+			 <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+		      <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" >
+		        <img ng-src="{{slide.image}}" style="margin:auto;">
+		        <div class="carousel-caption">
+		          <!-- <h4>Slide {{slide.id}}</h4>
+		          <p>{{slide.text}}</p> -->
+		        </div>
+		      </uib-slide>
+		    </uib-carousel>
+
+				<!-- <div class="container" ng-controller="CarouselCtrl"> -->
+				<!--  <div class="container" > -->
+                <!-- <div class="offsetspan6">
+                     <carousel interval="myInterval">
+                          <slide ng-repeat="slide in slides" active="slide.active">
+                                <img class="image-circle" ng-src="{{slide.image}}"/>
+                         <div class="carousel-caption">
+                             <h4>Slide {{$index}}</h4>
+                             <p>{{slide.text}}</p>
+                       </div>
+                       </slide>
+                </carousel>
+                 </div> -->
+            <!--  </div>  -->
+
+                 <!-- <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+			      <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+			        <img ng-src="{{slide.image}}">
+			        <div class="carousel-caption">
+			          <h4>Slide {{slide.id}}</h4>
+			          <p>{{slide.text}}</p>
+			        </div>
+			      </uib-slide>
+			    </uib-carousel>  -->
+			    	<!-- <div ng-repeat="slide in slides"> <img ng-src="{{slide.image}}" style="margin:auto;"></div>  -->
+
+					<!-- <div style="height: 605px">
+					    <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+					      <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+					        <img ng-src="{{slide.image}}" style="margin:auto;">
+					        <div class="carousel-caption">
+					          <h4>Slide {{slide.id}}</h4>
+					          <p>{{slide.text}}</p>
+					        </div>
+					      </uib-slide>
+					    </uib-carousel>
+					  </div> -->
+
+
+            
+     <!--<ul>
+					<li class="first-slide" data-transition="fade" data-slotamount="10" data-masterspeed="300">
+						<img src="assets\images\slide-1.jpg" data-fullwidthcentering="on" alt="slide">
+						<div class="tp-caption first-line lft tp-resizeme start" data-x="left" data-hoffset="0" data-y="160" data-speed="1000" data-start="200" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">Are you ready to study ?<br>We have the</div>
+						<div class="tp-caption solution-line lft tp-resizeme start" data-x="left" data-hoffset="0" data-y="225" data-speed="2000" data-start="200" data-easing="Power4.easeIn" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">Solution</div>
+						<div class="tp-caption second-line lfb tp-resizeme start" data-x="left" data-hoffset="0" data-y="310" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0"><p>Nunc eget tempor neque. Aenean non ex sed nibh euismod<br>ornare. Nam congue nisi purus, sed luctus risus.</p></div>
+						<div class="tp-caption third-line lfb tp-resizeme start" data-x="left" data-hoffset="0" data-y="400" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0"><div class="slider-button"><a href="#">Buy now</a></div>
+						</div>
+					</li>
+					<li class="first-slide" data-transition="fade" data-slotamount="10" data-masterspeed="300">
+						<img src="assets\images\slide-2.jpg" data-fullwidthcentering="on" alt="slide">
+						<div class="tp-caption first-line lft tp-resizeme start" data-x="left" data-hoffset="0" data-y="160" data-speed="1000" data-start="200" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">Next year more intresting!<br>Check next</div>
+						<div class="tp-caption solution-line lft tp-resizeme start" data-x="left" data-hoffset="0" data-y="225" data-speed="2000" data-start="200" data-easing="Power4.easeIn" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">Features</div>
+						<div class="tp-caption second-line description-line lfb tp-resizeme start" data-x="left" data-hoffset="0" data-y="310" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0"><p>Nunc eget tempor neque. Aenean non ex sed nibh euismod<br>ornare. Nam congue nisi purus, sed luctus risus.</p></div>
+						<div class="tp-caption third-line lfb tp-resizeme start" data-x="left" data-hoffset="0" data-y="400" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0"><div class="slider-button"><a href="#">Buy now</a></div>
+						</div>
+					</li>
+				</ul>-->
+			</div>
+		</div>
+	</div>
+
+
+				<section>
+					<div class="welcome-intro">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="section-heading">
+										<h1>Welcome to Jesus & Mary Convent School</h1>
+										<span>Principal’s Message</span>
+										<img src="assets\images\line-dec.png" alt="">
+										<p>May I have the joy to thank the parents who have entrusted their loving children to us to form them and build them as responsible, affectionate and creative persons with basic qualities of truthfulness, love and compassion, peace and courage and common brotherhood.
+											Some one asked me that today’s depressing national and international scenario based on money making than man making and learning for living than for life ,what are you going to provide by holding the age old ethical...</p>
+									</div>
+									<div class="row">
+										<div class="col-md-6 col-sm-6">
+											<div class="service-item">
+												<i class="fa fa-graduation-cap"></i>
+												<h4>About School</h4>
+												<div class="line-dec"></div>
+												<p>Jesus and Mary Convent School is an un-aided Christian minority institution owned by the Roman Catholic Diocese of Agra Educational Society,
+													Wazirpura Road, Agra-282003 (U.P.). The Roman Catholic Diocese of Agra Educational Society has been upbeat to initiate and start one more unaided Christian Minority Institution in addition to St. Joseph’s Sr. Sec. School, Alpha I, with the name Jesus & Mary Convent School at Delta III,'O' Block, with a prolife....</p>
+											</div>
+										</div>
+										<div class="col-md-6 col-sm-6">
+											<div class="service-item">
+												<i class="fa fa-birthday-cake"></i>
+												<h4>Happy Birthday</h4>
+
+												<img src="assets/images/1409.jpg">
+											
+												
+												
+												<img src="assets/images/1484.jpg">
+											</div>
+										</div>
+										<!-- <div class="col-md-6 col-sm-6">
+											<div class="service-item">
+												<i class="fa fa-clock-o"></i>
+												<h4>Circular Clock</h4>
+												<div class="line-dec"></div>
+												<p>Photo booth Banksy YOLO mixtape post-ironic they sold out all.</p>
+											</div>
+										</div> -->
+									<!--	<div class="col-md-6 col-sm-6">
+											<div class="service-item last-service">
+												<i class="fa fa-book"></i>
+												<h4>Open Book</h4>
+												<div class="line-dec"></div>
+												<p>Photo booth Banksy YOLO mixtape post-ironic they sold out all.</p>
+											</div>
+										</div>-->
+									</div>
+								</div>
+							<!--	<div class="col-md-4">
+									<div class="request-information">
+										<div class="widget-heading">
+											<h4>Request Information</h4>
+										</div>
+										<div class="search-form">
+											<input type="text" id="name" name="s" placeholder="Full Name" value="">
+											<input type="text" id="address" name="s" placeholder="E-mail Address" value="">
+			                                <div class="select">
+			                                    <select name="mark" id="campus">
+			                                        <option value="-1">Campus of Interests
+			                                          <option>Nearby
+			                                          <option>High Classes
+			                                          <option>Short Time
+			                                          <option>Long Time
+			                                    </select>
+			                                </div>
+			                                <div class="select">
+			                                    <select name="mark" id="program">
+			                                        <option value="-1">Program of Interests
+			                                          <option>Wroking Process
+			                                          <option>Archivements
+			                                          <option>Social
+			                                          <option>Profits
+			                                    </select>
+			                                </div>
+			                                <div class="accent-button">
+			                                	<a href="#">Submit Request</a>
+			                                </div>
+										</div>
+									</div>
+								</div>-->
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="popular-courses">
+					<div class="container">
+						<div class="row">
+							<div class="section-heading text-center">
+								<!-- <h1>Photo Gallery</h1>
+								<img src="assets\images\line-dec.png" alt="">
+								<p>Event Name: Martyr's Day Celebrations</p> -->
+							</div>
+						</div>
+						<!-- <div class="row">
+							<div id="owl-courses">
+								<div class="item course-item">
+									
+									<div class="up-content">
+									<carousel interval="myInterval">
+                                   <slide ng-repeat="slide in gallery" active="slide.active">
+                                     <img class="image-circle" ng-src="{{slide.image}}" />
+                        
+                                </slide>
+                                   </carousel>
+										
+									</div>
+								  </div> --><!-- 
+								<div class="item course-item">
+									<a href="single-course.htm"><img src="assets\images\course-2.jpg" alt=""></a>
+									<div class="down-content">
+										<img src="assets\images\course-author-2.jpg" alt="">
+										<h6>Ernest Byrd</h6>
+										<div class="price-red">
+											<span>$49.99</span>
+											<div class="base"></div>
+										</div>
+										<a href="single-course.htm"><h4>Electrical &amp; Electronic <br>Engingering</h4></a>
+										<p>Ugh chambray lumbersexual food truc artisan meditation sartorial post-ironic Wes Anderson.</p>
+										<div class="text-button">
+											<a href="single-course.htm">view more<i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+								</div> -->
+								<!-- <div class="item course-item">
+									<a href="single-course.htm"><img src="assets\images\course-3.jpg" alt=""></a>
+									<div class="down-content">
+										<img src="assets\images\course-author-3.jpg" alt="">
+										<h6>Ernest Byrd</h6>
+										<div class="price-red">
+											<span>$19.99</span>
+											<div class="base"></div>
+										</div>
+										<a href="single-course.htm"><h4>How to become<br>a Powerful Speaker</h4></a>
+										<p>Ugh chambray lumbersexual food truc artisan meditation sartorial post-ironic Wes Anderson.</p>
+										<div class="text-button">
+											<a href="single-course.htm">view more<i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+								</div> -->
+								<!-- <div class="item course-item">
+									<a href="single-course.htm"><img src="assets\images\course-4.jpg" alt=""></a>
+									<div class="down-content">
+										<img src="assets\images\course-author-4.jpg" alt="">
+										<h6>Ernest Byrd</h6>
+										<div class="price-yellow">
+											<span>Free</span>
+											<div class="base"></div>
+										</div>
+										<a href="single-course.htm"><h4>What can you do<br>With a Business Degree?</h4></a>
+										<p>Ugh chambray lumbersexual food truc artisan meditation sartorial post-ironic Wes Anderson.</p>
+										<div class="text-button">
+											<a href="single-course.htm">view more<i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+								</div> -->
+							<!-- 	<div class="item course-item">
+									<a href="single-course.htm"><img src="assets\images\course-5.jpg" alt=""></a>
+									<div class="down-content">
+										<img src="assets\images\course-author-2.jpg" alt="">
+										<h6>Ernest Byrd</h6>
+										<div class="price-red">
+											<span>$29.99</span>
+											<div class="base"></div>
+										</div>
+										<a href="single-course.htm"><h4>Fashion buying<br>and Product Management</h4></a>
+										<p>Ugh chambray lumbersexual food truc artisan meditation sartorial post-ironic Wes Anderson.</p>
+										<div class="text-button">
+											<a href="single-course.htm">view more<i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+								</div> -->
+								<!-- <div class="item course-item">
+									<a href="single-course.htm"><img src="assets\images\course-6.jpg" alt=""></a>
+									<div class="down-content">
+										<img src="assets\images\course-author-1.jpg" alt="">
+										<h6>Ernest Byrd</h6>
+										<div class="price-red">
+											<span>$19.99</span>
+											<div class="base"></div>
+										</div>
+										<a href="single-course.htm"><h4>How to become<br>a Powerful Speaker</h4></a>
+										<p>Ugh chambray lumbersexual food truc artisan meditation sartorial post-ironic Wes Anderson.</p>
+										<div class="text-button">
+											<a href="single-course.htm">view more<i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+								</div> -->
+							<!-- 	<div class="item course-item">
+									<a href="single-course.htm"><img src="assets\images\course-7.jpg" alt=""></a>
+									<div class="down-content">
+										<img src="assets\images\course-author-3.jpg" alt="">
+										<h6>Ernest Byrd</h6>
+										<div class="price-yellow">
+											<span>Free</span>
+											<div class="base"></div>
+										</div>
+										<a href="single-course.htm"><h4>How to become<br>a Powerful Speaker</h4></a>
+										<p>Ugh chambray lumbersexual food truc artisan meditation sartorial post-ironic Wes Anderson.</p>
+										<div class="text-button">
+											<a href="single-course.htm">view more<i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+								</div> -->
+							<!-- 	<div class="item course-item">
+									<a href="single-course.htm"><img src="assets\images\course-8.jpg" alt=""></a>
+									<div class="down-content">
+										<img src="assets\images\course-author-4.jpg" alt="">
+										<h6>Ernest Byrd</h6>
+										<div class="price-yellow">
+											<span>Free</span>
+											<div class="base"></div>
+										</div>
+										<a href="single-course.htm"><h4>What can you do<br>With a Business Degree?</h4></a>
+										<p>Ugh chambray lumbersexual food truc artisan meditation sartorial post-ironic Wes Anderson.</p>
+										<div class="text-button">
+											<a href="single-course.htm">view more<i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+								</div> -->
+							<!-- 	<div class="item course-item">
+									<a href="single-course.htm"><img src="assets\images\course-9.jpg" alt=""></a>
+									<div class="down-content">
+										<img src="assets\images\course-author-1.jpg" alt="">
+										<h6>Ernest Byrd</h6>
+										<div class="price-red">
+											<span>$29.99</span>
+											<div class="base"></div>
+										</div>
+										<a href="single-course.htm"><h4>Fashion buying<br>and Product Management</h4></a>
+										<p>Ugh chambray lumbersexual food truc artisan meditation sartorial post-ironic Wes Anderson.</p>
+										<div class="text-button">
+											<a href="single-course.htm">view more<i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+								</div> -->
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="testimonials-news">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="section-heading">
+									<h1>What Our Students Say</h1>
+									<img src="assets\images\line-dec.png" alt="">
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div id="owl-testimonials">
+											<div class="item">
+												<i class="fa fa-quote-right"></i>
+												<p>Stumptown polaroid skateboard single-origin coffee. Farm-to-table Vice authentic Truffaut put a bird on it, pug ethical tousled photo booth gluten-free cliche bicycle rights four dollar toast single-origin coffee taxidermy.</p>
+												<img src="assets\images\testimonial-1.jpg" alt="">
+												<h4>Caroll m. davis</h4>
+												<span>Web Designer</span>
+											</div>
+											<div class="item">
+												<i class="fa fa-quote-right"></i>
+												<p>Stumptown polaroid skateboard single-origin coffee. Farm-to-table Vice authentic Truffaut put a bird on it, pug ethical tousled photo booth gluten-free cliche bicycle rights four dollar toast single-origin coffee taxidermy.</p>
+												<img src="assets\images\testimonial-2.jpg" alt="">
+												<h4>Peter j. smith</h4>
+												<span>Web Designer</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="section-heading university-news">
+									<h1>University News</h1>
+									<img src="assets\images\line-dec.png" alt="">
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="news-item">
+											<a href="single-post.htm"><img src="assets\images\news-thumb-1.jpg" alt=""></a>
+											<ul>
+												<li>7 Oct 2015</li>
+												<li>By Admin</li>
+												<li>2 Comments</li>
+											</ul>
+											<a href="single-post.htm"><h4>New University Finder: Compare</h4></a>
+											<p>Ugh chambray lumbersexual food truc artisan meditation sartorial post-ironic.</p>
+										</div>
+										<div class="news-item">
+											<a href="single-post.htm"><img src="assets\images\news-thumb-2.jpg" alt=""></a>
+											<ul>
+												<li>7 Oct 2015</li>
+												<li>By Admin</li>
+												<li>2 Comments</li>
+											</ul>
+											<a href="single-post.htm"><h4>How Do Students Use Rankings?</h4></a>
+											<p>Ugh chambray lumbersexual food truc artisan meditation sartorial post-ironic.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="read-books">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="section-heading text-center">
+									<h1>You Can Read Books</h1>
+									<img src="assets\images\line-dec.png" alt="">
+									<p>Plaid you probably haven't heard of them fashion axe meditation</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3 col-sm-6">
+								<div class="books-item">
+									<i class="fa fa-area-chart"></i>
+									<h4>VIRTUAL TOUR <br>360°</h4>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="books-item">
+									<i class="fa fa-briefcase"></i>
+									<h4>Kids'<br>Corner</h4>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="books-item">
+									<i class="fa fa-compass"></i>
+									<h4>Event<br>Calendar</h4>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="books-item">
+									<i class="fa fa-comments-o"></i>
+									<h4> Our<br> Teachers</h4>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="border-button">
+									<a href="#">Go to the books</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="our-teachers">
+					<div class="container">
+						<div class="row">
+							<div class="section-heading text-center">
+								<h1>Our Teachers</h1>
+								<img src="assets\images\line-dec.png" alt="">
+								<p>High Life squid literally scenester fap Helvetica quinoa church-key</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3 col-sm-6">
+								<div class="teacher-item">
+									<div class="thumb-holder">
+										<a href="single-teacher.htm"><img src="assets\images\teacher-1.jpg" alt=""></a>
+										<div class="hover-content">
+											<ul>
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="down-content">
+										<a href="single-teacher.htm"><h4>Nick Smith</h4></a>
+										<span>Physic Teacher</span>
+										<p>Ugh chambray lumbersexual food  artisan meditation sartorial well post-ironic wes</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="teacher-item">
+									<div class="thumb-holder">
+										<a href="single-teacher.htm"><img src="assets\images\teacher-2.jpg" alt=""></a>
+										<div class="hover-content">
+											<ul>
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="down-content">
+										<a href="single-teacher.htm"><h4>John Rosado</h4></a>
+										<span>Emglish Teacher</span>
+										<p>Ugh chambray lumbersexual food  artisan meditation sartorial well post-ironic wes</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="teacher-item">
+									<div class="thumb-holder">
+										<a href="single-teacher.htm"><img src="assets\images\teacher-4.jpg" alt=""></a>
+										<div class="hover-content">
+											<ul>
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="down-content">
+										<a href="single-teacher.htm"><h4>Maria Lehmann</h4></a>
+										<span>Design Teacher</span>
+										<p>Ugh chambray lumbersexual food  artisan meditation sartorial well post-ironic wes</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="teacher-item">
+									<div class="thumb-holder">
+										<a href="single-teacher.htm"><img src="assets\images\teacher-3.jpg" alt=""></a>
+										<div class="hover-content">
+											<ul>
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="down-content">
+										<a href="single-teacher.htm"><h4>Samuel Delossantos</h4></a>
+										<span>Math Teacher</span>
+										<p>Ugh chambray lumbersexual food  artisan meditation sartorial well post-ironic wes</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div id="call-to-action">
+					<div class="container">
+						<div class="row">
+							<p>Young people have been 'mis-sold' <em>path to success</em>, business leaders warn.</p>
+							<div class="accent-button">
+								<a href="courses-list.htm">View Courses</a>
+							</div>
+						</div>
+					</div>
+				</div>
