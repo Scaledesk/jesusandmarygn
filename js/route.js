@@ -273,10 +273,10 @@ app.directive('ngSpinnerLoader', ['$rootScope',
                 $rootScope.$on('$routeChangeSuccess', function() {
                     setTimeout(function(){
                         element.addClass('hide'); // hide spinner bar
-                    },500);
+                    },5000);
                     $("html, body").animate({
                         scrollTop: 0
-                    }, 500);
+                    },5000);
                 });
             }
         };

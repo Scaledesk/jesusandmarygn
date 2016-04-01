@@ -85,6 +85,16 @@
 <body ng-app="myApp">
 
 
+
+             <!-- BEGIN PAGE SPINNER -->
+                <div ng-spinner-loader >
+
+                    <div id="loading-bar-spinner"><div class="spinner-icon"></div></div>
+                </div>
+                <!-- END PAGE SPINNER -->
+
+
+
 	<div class="sidebar-menu-container" id="sidebar-menu-container">
 
 		<div class="sidebar-menu-push">
@@ -100,12 +110,7 @@
 <!--<div ng-includes="src='includes/header.html' "></div>-->
 				<div ng-include="'includes/header.html'"></div>
 
-                <!-- BEGIN PAGE SPINNER -->
-                <div ng-spinner-loader >
-
-                    <div id="loading-bar-spinner"><div class="spinner-icon"></div></div>
-                </div>
-                <!-- END PAGE SPINNER -->
+               
 
                 <div ng-view>
                 </div>
